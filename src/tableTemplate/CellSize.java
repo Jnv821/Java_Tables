@@ -1,8 +1,9 @@
 package tableTemplate;
+
 /**
- *  An Enum to define and set the sizes of the Cell. 
+ * An Enum to define and set the sizes of the Cell.
  */
-public enum CellSize{
+public enum CellSize {
 	/**
 	 * A cell of size 1
 	 */
@@ -43,22 +44,25 @@ public enum CellSize{
 	 * A cell of size 128
 	 */
 	ONEHUNDREDTWENTYEIGHT(128);
-	
+
 	/**
 	 * The value that corresponds to the enum variable
 	 */
 	private final int value;
-	
+
 	/**
 	 * Constructor of CellSize that defines an int value for use.
+	 * 
 	 * @param newValue defines the value for the enum variables.
 	 */
-	CellSize(int newValue){
+	CellSize(int newValue) {
 		this.value = newValue;
 	}
-	
+
 	/**
-	 * Getter of the value attribute. Used to get the numeric value of the Enum variable.
+	 * Getter of the value attribute. Used to get the numeric value of the Enum
+	 * variable.
+	 * 
 	 * @return value. Returns the value of the enum variable.
 	 */
 	public int getValue() {
